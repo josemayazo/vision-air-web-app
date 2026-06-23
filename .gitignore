@@ -1,0 +1,41 @@
+# ====================
+# Dependencias
+# ====================
+node_modules/
+
+# ====================
+# Build
+# ====================
+dist/
+dist-ssr/
+*.local
+
+# ====================
+# Variables de entorno y secretos
+# ====================
+.env
+.env.local
+.env.production
+.env.staging
+.env.*.local
+!.env.example
+
+# ====================
+# Vite / Rollup cache
+# ====================
+.vite/
+.rollup.cache/
+
+# ====================
+# OS
+# ====================
+.DS_Store
+Thumbs.db
+
+# ====================
+# Editores
+# ====================
+.vscode/
+.idea/
+*.swp
+*~
